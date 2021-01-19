@@ -1,2 +1,2 @@
 # Implementation-of-DSA
-Contains implementation of Data Structures and ALgorithms
+Contains implementation of Data Structures and ALgorithms using C++.
