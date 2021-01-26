@@ -5,15 +5,8 @@ using namespace std;
 // pr_sum is prefix_sum array of size N. 
 // 1. pr_sum[0] = arr[0]
 // 2. Find the prefix sum of each element of arr and store it in the corresponding position in pr_sum and repeat till the last element of arr[]
-// for(i = 1; i<N ; i++){
-//         sum = 0
-//         for(j = 0 ; j<=i; j++){
-//             sum+= arr[j]
-//         }
-//         pr_sum[i]=sum
-        
-// }
-// Time Complexity - O(N^2)
+
+// Time Complexity - O(N)
 int main(){
     int arr[5] = {10 , 20, 30, 40 , 50};
     int pr_sum[5];
